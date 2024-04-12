@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--    Header Section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </header>
+<!--     Home section -->
+<section class="home">
+    <div class="home-content">
+        <h3>Hi, there I'm</h3>
+        <h1>Vivian Njoroge</h1>
+        <h3>And I'm a <span class="multiple-text"></span> </h3>
+        <p>I'm a Software Engineer with experience on both front-end and back-end technologies.</p>
+        <div class="social-media">
+            <a href="https://twitter.com/VivianNjoroge6"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/its_v.ivian/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/vivian-njoroge-6a9596258/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="./cv/VIVIAN N (1).pdf" class="button">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="images/viv.png" alt="Home Image" heigth="300" width="300">
+    </div>
+</section>
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/Viv.png" alt="About Image" heigth="300" width="300">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">ABOUT <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>I'm a skilled front-end developer with expertise on different languages and franeworks in the front-end space..</p>
+        <a href="#" class="button">Read More</a>
+ </div>
+</section>
+<!-- Services Section -->
+<section class="services" id="services">
+    <h2 class="heading"> My<span>Services</span></h2>
+
+    <div class="services-container">
+    <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h1>Front-end Development</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt sit quasi, ipsum nam consequuntur rem ipsa enim at tempora recusandae deserunt et, temporibus assumenda praesentium est. Magni, asperiores dolores.</p>
+        <a href="#" class="button">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+           <h1>Back-end Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt sit quasi, ipsum nam consequuntur rem ipsa enim at tempora recusandae deserunt et, temporibus assumenda praesentium est. Magni, asperiores dolores.</p>
+            <a href="#" class="button">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+               <h1>Full Stack Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt sit quasi, ipsum nam consequuntur rem ipsa enim at tempora recusandae deserunt et, temporibus assumenda praesentium est. Magni, asperiores dolores.</p>
+                <a href="#" class="button">Read More</a>
+                </div>
+            </div>
+</section>
+<!--     Portfolio Section -->
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span>Priojects</span></h2>
+   <div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="images/web.jpg"  height="300" width="300">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <i class="fa-sharp fa-regular fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+    <img src="images/bg.jpg" alt="img" height="300"  width="300"> 
+    <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <i class="fa-sharp fa-regular fa-up-right-from-square"></i>
+    </div>
+</div>
+<div class="portfolio-box">
+<img src="images/img.jpg" height="300" width="300">
+<div class="portfolio-layer">
+    <h4>Web Design</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <i class="fa-sharp fa-regular fa-up-right-from-square"></i>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+
+ <section class="contact" id="contact">
+    <h2 class="heading"> Contact<span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="EmailAddress">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="button">
+    </form> 
+</section>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @VivianNjoroge | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
